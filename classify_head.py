@@ -20,7 +20,7 @@ import models.models_vit as models_vit
 
 from utils import lr_sched
 from dataset.imbalance_cifar import ImbalanceCIFAR10
-from utils.semi import *
+from utils import *
 
 
 def get_args_parser():
