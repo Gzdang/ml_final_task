@@ -250,7 +250,6 @@ def validate(val_loader, model, criterion, epoch, args, tf_writer=None, flag='va
     top1 = AverageMeter('Acc@1', ':6.2f')
     top5 = AverageMeter('Acc@5', ':6.2f')
 
-    # switch to evaluate mode
     model.eval()
     all_preds = []
     all_targets = []
